@@ -81,7 +81,7 @@ export default function Header() {
                     width="1em"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="relative transition-transform duration-200 motion-safe:-translate-x-1 group-hover:translate-x-0"
+                    className="relative transition-transform duration-200 motion-safe:translate-x-0 group-hover:translate-x-0.5"
                   >
                     <path
                       fill="currentColor"
