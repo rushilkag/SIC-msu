@@ -10,11 +10,11 @@ export default function Footer() {
           </div>
         </div>
         <p className="-mt-8 text-center text-gray-300">
-          Made by Rushil Kagithala      
-          
+          Made by Rushil Kagithala,      
+          Apar Mohabansi, and Erik Blake
             
       
-          . &copy; Uranium 2022. All rights reserved.
+          . &copy; SIC 2024. All rights reserved.
         </p>
       </div>
     </footer>

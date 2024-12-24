@@ -15,7 +15,7 @@ export default function Header() {
             Sustainability Initiatives Consulting
           </a>
           <button
-            className="px-3 py-1 bg-white rounded-full cursor-pointer bg-opacity-30 focus:outline-none md:hidden"
+            className="px-3 py-1 bg-white rounded-full cursor-pointer bg-opacity-100 focus:outline-none md:hidden"
             type="button"
             aria-label="button"
             onClick={() => setNavbarOpen(!navbarOpen)}

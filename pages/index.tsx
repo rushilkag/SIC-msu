@@ -18,9 +18,9 @@ const Home: NextPage = () => {
         <meta property="og:description" content="Example" />
         <meta property="og:title" content="Example" />
         <meta property="og:image" content="" />
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="/favimage.png" />
       </Head>
-      <div className="h-full leading-normal text-gray-600">
+      <div className="h-auto leading-normal text-gray-600">
         <div
           className="absolute top-0 left-0 right-0 bg-no-repeat bg-cover shadow-lg -bottom-full brightness-90 filter md:bottom-0 md:bg-center md:brightness-100"
           style={{
