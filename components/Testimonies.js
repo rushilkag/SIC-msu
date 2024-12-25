@@ -32,17 +32,12 @@ export default function Testimonies() {
       <div className="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
           <div className="mb-12 space-y-5 md:mb-16 md:text-center">
-            {/* <div className="inline-block px-5 py-5 text-sm font-semibold text-indigo-100 rounded-lg md:text-center text-cn bg-[#202c47] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40">
-            Meet The Team
-            </div> */}
             <h1 className="mb-5 text-3xl font-semibold text-white md:text-center md:text-5xl">
               Meet The Team
             </h1>
-
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-          <ul className="space-y-8">
+        <ul className="grid grid-cols-1 grid-rows-2 gap-8 text-lg md:grid-cols-2 lg:grid-cols-3">
             <li className="text-sm leading-6">
               <Tweet
                 name="Shivang Kapoor"
@@ -62,10 +57,6 @@ Founder and Vice President"
                 tweetLink="https://www.linkedin.com/in/eriksebe/"
               />
             </li>
-            
-            
-          </ul>
-          <ul className="hidden space-y-8 sm:block">
             <li className="text-sm leading-6">
               <Tweet
                 name="Bryan Koukoudian"
@@ -84,11 +75,6 @@ Founder and Vice President"
                 tweetLink="https://www.linkedin.com/in/saif-usman/"
               />
             </li>
-            
-            
-    
-          </ul>
-          <ul className="hidden space-y-8 lg:block">
             <li className="text-sm leading-6">
               <Tweet
                 name="Anvi Thakur"
@@ -107,10 +93,7 @@ Founder and Vice President"
                 tweetLink="https://www.linkedin.com/in/ruhani-singh/"
               />
             </li>
-            
-            
-          </ul>
-        </div>
+        </ul>
       </div>
     </section>
   );

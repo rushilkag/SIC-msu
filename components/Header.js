@@ -14,7 +14,7 @@ export default function Header() {
           >
             Sustainability Initiatives Consulting
           </a>
-          <button
+          {/* <button
             className="px-3 py-1 bg-white rounded-full cursor-pointer bg-opacity-100 focus:outline-none md:hidden"
             type="button"
             aria-label="button"
@@ -35,12 +35,12 @@ export default function Header() {
               <line x1="3" y1="6" x2="21" y2="6"></line>
               <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
-          </button>
+          </button> */}
         </div>
         <div
           className={
-            'mt-3 flex-grow items-start md:flex lg:mt-0' +
-            (navbarOpen ? ' flex' : ' hidden')
+            'mt-3 flex-grow items-start md:flex lg:mt-0' + 'flex'
+            //(navbarOpen ? ' flex' : ' hidden')
           }
         >
           <div className="flex-col pl-4 text-xl md:flex-grow md:pl-0">
@@ -74,14 +74,14 @@ export default function Header() {
                   href="/"
                   className="bg-white rounded-full bg-opacity-40 px-4 text-lg text-white md:text-black shadow-sm transition-colors duration-75 group gap-[0.25em] inline-flex items-center py-1.5 hover:cursor-pointer hover:bg-opacity-90"
                 >
-                  
+                <span className="flex items-center"></span>
                   <svg
                     viewBox="0 0 16 16"
                     height="1em"
                     width="1em"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="relative transition-transform duration-200 motion-safe:translate-x-0 group-hover:translate-x-0.5"
+                    className="relative transition-transform duration-200 motion-safe:-translate-x-0.5 group-hover:translate-x-0"
                   >
                     <path
                       fill="currentColor"
